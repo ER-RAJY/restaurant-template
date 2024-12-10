@@ -5,7 +5,12 @@
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Website</title>
-
+    <link rel="shortcut icon" href="images/lo.png" type="image/x-icon">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,7 +20,7 @@
     <section class="navbar">
         <div class="container">
             <div class="logo">
-                <a href="#" title="Logo">
+                <a href="index.html" title="Logo">
                     <img src="images/lo.png" alt="Restaurant Logo" class="img-responsive">
                 </a>
             </div>
@@ -29,11 +34,17 @@
                         <a href="categories.html">Categories</a>
                     </li>
                     <li>
-                        <a href="foods.html">Foods</a>
+                        <a href="foods.html">Menu</a>
                     </li>
+
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+
                     <li>
                         <a href="Contact.html">Contact</a>
                     </li>
+                    
                 </ul>
             </div>
 
@@ -80,18 +91,62 @@
       
     </div><br><br>
       <!-- Search Form -->
-      <form action="food-search.html" method="POST">
+      <!-- <form action="food-search.html" method="POST">
         <input type="search" name="search" placeholder="Search for Food.." required>
         <input type="submit" name="submit" value="Search" class="btn btn-primary">
-    </form>
+    </form> -->
 </section>
 
+<!-- slider image -->
 
+    <div class="page-container">
+    <h1 class="title" style=" border-bottom: 1px solid #000; padding: 8px;">MAHAJJ offres</h1>
+    <div class="slider">
+      <div class="slides">
+        <!-- Image 1 -->
+        <div class="slide">
+          <img src="images/offre1.png" alt="Image 1">
+        </div>
+        <!-- Image 2 -->
+        <div class="slide">
+          <img src="images/offre2.png" alt="Image 2">
+        </div>
+        <!-- Image 3 -->
+        <div class="slide">
+          <img src="images/offre3.png" alt="Image 3">
+        </div>
+        <!-- Image 4 -->
+        <div class="slide">
+          <img src="images/offre4.png" alt="Image 4">
+        </div>
+        <!-- Image 5 -->
+        <div class="slide">
+          <img src="images/offre5.png" alt="Image 5">
+        </div>
+        <!-- Image 6 -->
+        <div class="slide">
+          <img src="images/offre6.png" alt="Image 6">
+        </div>
+        <!-- Image 7 -->
+        <div class="slide">
+          <img src="images/offre7.png" alt="Image 7">
+        </div>
+        <!-- Image 8 -->
+        <div class="slide">
+          <img src="images/offre8.png" alt="Image 8">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- slider image -->
 
     <!-- CAtegories Section Starts Here -->
     <section class="categories">
         <div class="container">
-            <h2 class="text-center">Explore Foods</h2>
+            <h2 class="text-center" style="color: white; border-bottom: 1px solid #000; padding: 8px;">Explore Foods</h2>
 
             <a href="category-foods.html">
             <div class="box-3 float-container">
@@ -125,7 +180,7 @@
     <!-- fOOD MEnu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
-            <h2 class="text-center">Food Menu</h2>
+            <h2 class="text-center" style=" border-bottom: 1px solid #000; padding: 8px;">Food Menu</h2>
 
             <div class="food-menu-box">
                 <div class="food-menu-img">
@@ -140,7 +195,7 @@
                     </p>
                     <br>
 
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="Contact.html" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -157,7 +212,7 @@
                     </p>
                     <br>
 
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="Contact.html" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -174,7 +229,7 @@
                     </p>
                     <br>
 
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="Contact.html" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -191,7 +246,7 @@
                     </p>
                     <br>
 
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="Contact.html" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -208,7 +263,7 @@
                     </p>
                     <br>
 
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="Contact.html" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -225,7 +280,7 @@
                     </p>
                     <br>
 
-                    <a href="#" class="btn btn-primary">Order Now</a>
+                    <a href="Contact.html" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -243,7 +298,7 @@
     <!-- fOOD Menu Section Ends Here -->
 
     <!-- social Section Starts Here -->
-    <section class="social">
+    <!-- <section class="social">
         <div class="container text-center">
             <ul>
                 <li>
@@ -257,16 +312,79 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> -->
     <!-- social Section Ends Here -->
 
     <!-- footer Section Starts Here -->
-    <section class="footer">
-        <div class="container text-center">
-            <p>All rights reserved. Designed By <a href="#">Brikol-dev</a></p>
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3>Bienvenue chez Chez Nous</h3>
+        <p>Venez déguster nos plats savoureux dans un cadre chaleureux.</p>
+      </div>
+      <div class="footer-contact">
+        <h3>Contactez-nous</h3>
+        <ul>
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>1234 Rue du Restaurant, Ville, Pays</span>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <span>+1 (234) 567-890</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>contact@cheznouss.com</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h3>Suivez-nous</h3>
+        <div class="social-icons">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
         </div>
-    </section>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Chez Nous. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
     <!-- footer Section Ends Here -->
 
+
+    <script>
+        // script.js
+// script.js
+const slides = document.querySelector(".slides");
+const totalSlides = document.querySelectorAll(".slide").length;
+
+let currentIndex = 0;
+
+function autoSlide() {
+  currentIndex++;
+  
+  if (currentIndex >= totalSlides) {
+    currentIndex = 0; // Revenir à la première image
+  }
+  
+  slides.style.transform = `translateX(-${currentIndex * 714}px)`;
+}
+
+// Défilement automatique toutes les 3 secondes
+setInterval(autoSlide, 3000);
+
+
+    </script>
 </body>
 </html>
